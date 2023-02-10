@@ -1,0 +1,22 @@
+.tasks-view {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    margin: 2rem;
+
+    .cards-view {
+        display: flex;
+        flex-direction: row;
+
+        .status-section {
+            margin: 0.5rem;
+            width: 20rem;
+            padding-right: 2rem;
+
+            h3 {
+                color: white;
+                text-align: left;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+// //Mock data
+// [
+//         {
+//             "taskText": "Köpa mjölk",
+//             "isDone": false
+//         },
+//         {
+//             "taskText": "Städa inför partajet",
+//             "isDone": false
+//         },
+//         {
+//             "taskText": "Klippa gräsmattan",
+//             "isDone": true
+//         },
+//         {
+//             "taskText": "Rensa ut sommarkläderna från garderoben",
+//             "isDone": false
+//         },
+//         {
+//             "taskText": "Laga en trevlig fredagsmiddag",
+//             "isDone": true
+//         }
+// ]
