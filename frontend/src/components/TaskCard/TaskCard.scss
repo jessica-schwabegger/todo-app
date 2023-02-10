@@ -1,11 +1,39 @@
 .task-card {
+    cursor: pointer;
     display: inline-flex;
-    justify-content: space-between;
-    background-color: white;
+    flex-direction: column;
+    // justify-content: space-between;
+    background-color: rgba(120, 134, 132, 0.3);
+    color: white;
     border-radius: 0.2rem;
-    padding: 1rem 2rem;
+    padding: 1rem;
     width: 20rem;
     margin: 0.1rem 0;
+    position: relative;
+
+    .task-card-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+                
+        svg {
+            margin: 0 0.5rem 1rem 0.5rem;
+        }
+    }
+
+    .task-card-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+
+        p {
+            margin: 0;
+            align-self: center;
+            text-align: left;
+            // font-weight: bold;
+        }
+    }
 
     .assignee {
         width: 40px;
@@ -16,24 +44,46 @@
             border-radius: 50%;
         }
     }
-    p {
-        margin: 0;
-        align-self: center;
-        text-align: left;
+
+    .confirm-action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(21, 31, 55, 0.85);
+        border-radius: 0.2rem;
+        padding: 1rem;
+        width: inherit;
+        height: -webkit-fill-available;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
-    &:hover {
-        width: 21rem;
-        cursor: pointer;
-        transition: width 0.5s ease-in-out;
-        border: 2px solid rgba(76, 0, 130, 0.614);
+    .edit-task {
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(21, 31, 55, 0.85);
+        border-radius: 0.2rem;
+        padding: 1rem;
+        width: inherit;
+        height: -webkit-fill-available;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        > *  {
+            margin: 0 0.3rem;
+        }
     }
 }
 
 .is-done {
-    background-color: rgb(232, 230, 230);
+    background-color: #D2CFBF;
+    color: white;
 
     .checkmark {
-        color: rgb(0, 179, 0)
+        color: #7CB6B2
     }
 }

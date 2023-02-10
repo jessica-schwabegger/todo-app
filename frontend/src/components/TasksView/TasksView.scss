@@ -1,10 +1,22 @@
 .tasks-view {
-    // box-shadow: 5px 6px 27px -14px rgba(0,0,0,0.75);
-    // width: fit-content;
-    margin: 2rem auto;
-    // border-radius: 0.2rem;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    margin: 2rem;
 
-    &:hover {
-        // width: 25rem;
+    .cards-view {
+        display: flex;
+        flex-direction: row;
+
+        .status-section {
+            margin: 0.5rem;
+            width: 20rem;
+            padding-right: 2rem;
+
+            h3 {
+                color: white;
+                text-align: left;
+            }
+        }
     }
 }

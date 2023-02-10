@@ -11,6 +11,7 @@
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
@@ -42,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8080"
+  "proxy": "http://localhost:8080",
+  "devDependencies": {
+    "@types/react-beautiful-dnd": "^13.1.2"
+  }
 }
